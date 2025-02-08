@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: bisque;
+    background-color: rgb(240, 222, 219);
 
     
 }
@@ -27,22 +27,25 @@ body {
 }
 .container .tenor-gif-embed {
     display: flex;
-    max-width: 500px;
+    max-width: 700px;
 
 }
 .container .btn {
     display: flex;
     gap: 25px;
     border-radius: 8px;
+    margin-block: 100;
 }
 .btn a {
     text-decoration: none;
     color: #111;
-    background: #fff;
+    background: #d16d6d;
     padding: 10px 25px;
     border-radius: 8px;
     box-shadow: 0.5rem 1rem 3rem hsl(0, 0, 0, 0.3);
+   
 }
 .container .btnticket {
     border-radius: 8px;
+    background: #d16d6d;
 }
